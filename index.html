@@ -1,0 +1,34 @@
+<html>
+<head>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./styles.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="./functions.js" defer></script>
+
+</head>
+<body>
+	<div class='example'>
+		<div class='some_class'> Checking if we can divide numbers</div>
+		<div>
+			<label for="numerator">is:</label>
+			<input id="numerator" class="custom" size="8">
+			<label for="denominator">divisble by</label>
+			<input id="denominator" class="custom" size="8">
+		</div>
+		<button type='button' onclick='clickIsDivisible()'>well is it?</button>
+		<div id='result'></div>
+	</div>
+	<div class='example'>
+	<div class='some_class'> print numbers between values but with different background colors</div>
+		<div>
+			<label for="start">start:</label>
+			<input id="start" class="custom" size="8">
+			<label for="end">end</label>
+			<input id="end" class="custom" size="8">
+		</div>
+		<button type='button' onclick='clickPrintNumbers()'>Print Numbers</button>
+		<div id='even_odd_output'></div>
+	</div>
+</body>
+</html>
